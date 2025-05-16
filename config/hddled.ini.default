@@ -1,0 +1,8 @@
+[setup]
+PIN_NUMBERING = WPI                   ; BCM_GPIO or WPI
+PIN = 25                              ; PIN number (see WiringPi/pins/pins.pdf or use `gpio readall` command)
+DELAY = 20000                         ; microseconds
+
+[files]
+PATH_TO_DISK_DATA = /proc/diskstats   ; path to diskstats
+PATH_TO_LOG = /var/log/hddled.log     ; optional log file path

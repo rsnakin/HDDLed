@@ -1,0 +1,17 @@
+[Unit]
+Description=/usr/local/bin/hddled
+ConditionPathExists=/usr/local/bin/hddled
+After=network.target auditd.service
+
+[Service]
+Type=forking
+ExecStart=/usr/local/bin/hddled
+TimeoutSec=0
+StandardOutput=tty
+RemainAfterExit=yes
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
+
