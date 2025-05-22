@@ -98,7 +98,7 @@ HDDLed/
 ## 📚 Dependencies
 
 - GCC or Clang
-- CMake ≥ 3.10
+- CMake ≥ 3.18
 - systemd
 - [wiringPi](https://github.com/WiringPi/WiringPi.git)
 
