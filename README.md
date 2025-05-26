@@ -100,7 +100,7 @@ HDDLed/
 - GCC or Clang
 - CMake ≥ 3.18
 - systemd
-- [wiringPi](https://github.com/WiringPi/WiringPi.git)
+- [wiringPi](https://github.com/WiringPi)
 
 ---
 
