@@ -38,7 +38,6 @@ class cfg {
         char **__iniContainer;
         bool __containerEmpty;
         bool readCFG();
-        bool getValStr(const char *section, const char *parameter, char *valueStr);
 };
 
 #endif
